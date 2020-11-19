@@ -233,7 +233,7 @@ a {
 
 #onkentes {
   text-align: center;
-  margin-top: 90px;
+  margin-top: 90px !important;
 }
 
 #onkentes span {
