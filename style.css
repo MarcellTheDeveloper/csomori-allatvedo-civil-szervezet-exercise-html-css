@@ -54,7 +54,7 @@ a {
 
 @media screen and (max-width: 2560px) {
   .section1 {
-    background-image: url("Landing page/images/dogbackground_v4_v1.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_v1.png") !important;
   }
   .navcontainer li:nth-child(7) {
     display: none;
@@ -63,7 +63,7 @@ a {
 
 @media screen and (max-width: 1830px) {
   .section1 {
-    background-image: url("Landing page/images/dogbackground_v4_v1.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_v1.png") !important;
   }
 }
 
@@ -101,7 +101,7 @@ a {
 @media screen and (max-width: 1350px) {
   .section1 {
     padding-bottom: 100px !important;
-    background-image: url("Landing page/images/dogbackground_v4_tablet_v3.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_tablet_v3.png") !important;
   }
   .section2 {
     margin-bottom: 100px !important;
@@ -113,7 +113,7 @@ a {
 
 @media screen and (max-width: 1200px) {
   .section1 {
-    background-image: url("Landing page/images/dogbackground_v4_tablet_v4.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_tablet_v4.png") !important;
   }
   .grid-container {
     -webkit-box-orient: vertical;
@@ -125,7 +125,7 @@ a {
 
 @media screen and (max-width: 1060px) {
   .section1 {
-    background-image: url("Landing page/images/dogbackground_v4_tablet_v5.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_tablet_v5.png") !important;
   }
   .section1 div:nth-child(1) {
     width: 100% !important;
@@ -188,7 +188,7 @@ a {
 @media screen and (max-width: 630px) {
   .section1 {
     margin-top: -100px;
-    background-image: url("Landing page/images/dogbackground_v4_tablet_v6.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_tablet_v6.png") !important;
   }
   .section1 h1:nth-child(1) {
     font-size: 40px !important;
@@ -203,7 +203,7 @@ a {
     margin: 15px auto !important;
   }
   .section1 {
-    background-image: url("Landing page/images/dogbackground_v4_tablet_v7.png") !important;
+    background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4_tablet_v7.png") !important;
   }
   .section1 div:nth-child(1) div {
     margin-bottom: 50px;
@@ -267,7 +267,7 @@ textarea::placeholder {
 article ul li {
   margin: 30px 0px;
   font-size: 18px;
-  list-style-image: url("Landing page/images/dogpaw_listicon.png");
+  list-style-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogpaw_listicon.png");
 }
 
 .form-control {
@@ -443,7 +443,7 @@ header {
 .section1 {
   top: 0px;
   height: 100vh;
-  background-image: url("Landing page/images/dogbackground_v4.png");
+  background-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogbackground_v4.png");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -556,7 +556,7 @@ header {
 .section3 li {
   margin: 30px 0px;
   font-size: 18px;
-  list-style-image: url("Landing page/images/dogpaw_listicon.png");
+  list-style-image: url("https://marcellthedeveloper.github.io/csomoriallatvedocivilszervezet/Landing page/images/dogpaw_listicon.png");
 }
  n
 .section3 span {
