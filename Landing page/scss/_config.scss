@@ -1,0 +1,28 @@
+$third-color: #79a9f5;
+$second-color: #e1f1ff;
+$font-color: #4f4f4f;
+$pastel-red: #ff6961;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Song Myung", serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: $font-color;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: $font-color;
+}

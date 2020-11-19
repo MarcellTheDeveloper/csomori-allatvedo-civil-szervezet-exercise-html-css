@@ -1,0 +1,198 @@
+@import "config";
+@import "button";
+@import "mediaqueries";
+@import "volunteer";
+@import "cards";
+
+body {
+  width: 100% !important;
+}
+header {
+  background-color: white;
+  width: 100%;
+  //box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 0.3);
+  z-index: 999;
+  position: relative;
+}
+
+.navcontainer {
+  nav {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  ul {
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding: 0px 20px;
+      list-style: none;
+      a {
+        font-size: 24px;
+      }
+    }
+    li:nth-child(1) a {
+      color: $third-color;
+    }
+  }
+}
+
+.section1 {
+  top: 0px;
+  height: 100vh;
+  background-image: url("/Landing page/images/dogbackground_v4.png");
+  background-size: cover;
+  display: flex;
+  padding-bottom: 200px;
+  div:nth-child(1) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    margin: 20px;
+    h1:nth-child(1) {
+      font-size: 60px;
+      text-align: center;
+    }
+    h1:nth-child(2) {
+      font-size: 70px;
+      color: $third-color;
+      text-align: center;
+    }
+    div {
+      margin-top: 40px;
+      a {
+        @extend %btn;
+        transition: 0.4s;
+      }
+      a:hover {
+        box-shadow: 0px 2px 22px 0px rgba(50, 50, 50, 0.3);
+        transform: translateY(-2px);
+        background-color: $third-color;
+        color: white;
+      }
+    }
+  }
+  div:nth-child(2) {
+    width: 50%;
+  }
+}
+
+.section2 {
+  margin-top: 50px;
+  margin-bottom: -30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  a {
+    margin: 30px 0px;
+    width: auto;
+    align-self: center;
+  }
+  h1 {
+    margin: 30px 0px;
+    font-size: 50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  span {
+    color: $pastel-red;
+  }
+}
+
+.section3 {
+  background-image: url("/Landing page/images/dogcatpeeking.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  li {
+    margin: 30px 0px;
+    font-size: 18px;
+    list-style-image: url("/Landing page/images/dogpaw_listicon.png");
+  }
+  span {
+    color: $pastel-red;
+  }
+  .section2first {
+    margin-top: 300px;
+  }
+  .section2second {
+    margin-top: 300px;
+  }
+}
+
+.section4 {
+  padding: 40px 0px 100px 0px;
+  background-color: $second-color;
+  background-size: cover;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  h1 {
+    text-align: center;
+  }
+  img {
+    width: 50%;
+  }
+  div a {
+    margin-top: -170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 17px;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.flexfooter {
+  margin: 10px 40px 0px 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  div {
+    display: flex;
+    flex-direction: column;
+    li {
+      list-style: none;
+      margin: 10px auto;
+    }
+    li:nth-child(4) {
+      a {
+        color: $third-color;
+      }
+    }
+  }
+  div:nth-child(3) {
+    li:nth-child(4) a {
+      color: $font-color !important;
+    }
+  }
+}
+
+.secondarymenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 10px;
+  border-top: 4px solid $second-color;
+}

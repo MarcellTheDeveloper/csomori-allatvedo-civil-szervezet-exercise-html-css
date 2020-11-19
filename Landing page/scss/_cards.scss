@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 250px auto 0px;
+  padding-bottom: 100px;
+  background-color: $second-color;
+  h2 {
+    margin-top: 50px;
+  }
+}
+
+.box {
+  margin-top: -100px;
+  width: 250px;
+  height: 250px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  p {
+    font-size: 40px;
+    margin-top: 0px;
+    border-bottom-style: 10px;
+  }
+}
+
+.gazdiratalalt {
+  background: #79a9f5;
+}
+
+.onkenteseink {
+  background: #ff6961;
+}
+
+.tamogatoink {
+  background: #ff6961;
+}

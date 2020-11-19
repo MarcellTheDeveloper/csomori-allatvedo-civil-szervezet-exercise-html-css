@@ -1,0 +1,26 @@
+%btn {
+  padding: 15px;
+  border: 2px $third-color solid;
+  border-radius: 20px;
+  font-size: 24px;
+  color: $third-color;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.btn {
+  @extend %btn;
+  transition: 0.4s;
+}
+.btn2 {
+  font-weight: 500;
+  border: 2px $pastel-red solid !important;
+  background-color: $pastel-red !important;
+  color: white !important;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 22px 0px rgba(50, 50, 50, 0.3);
+  transform: translateY(-2px);
+  background-color: $third-color;
+}
