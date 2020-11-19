@@ -448,7 +448,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 .section1 div:nth-child(1) {
