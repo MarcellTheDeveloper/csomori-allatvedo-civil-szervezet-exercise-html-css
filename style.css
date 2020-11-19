@@ -560,9 +560,11 @@ header {
 }
  n
 .section3 span {
-  color: #ff6961;
+  color: #ff6961 !important;
 }
-
+.section2second h1 span{
+  color: #ff6961 !important;
+}
 .section3 .section2first {
   margin-top: 300px;
 }
