@@ -553,6 +553,9 @@ header {
   font-size: 40px;
 }
 
+span{
+  color: #ff6961 !important;
+}
 .section3 li {
   margin: 30px 0px;
   font-size: 18px;
