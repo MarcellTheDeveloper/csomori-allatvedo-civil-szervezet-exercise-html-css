@@ -12,6 +12,14 @@ body {
   color: #4f4f4f;
 }
 
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 * {
   margin: 0px;
   padding: 0px;
